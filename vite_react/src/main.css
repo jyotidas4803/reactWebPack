@@ -1,0 +1,39 @@
+body {
+  background-color: azure;
+  font-family: sans-serif;
+}
+
+#header_first{
+  text-align: center;
+  color: rgb(6, 6, 173);
+}
+
+h4{
+  color: rgba(9, 9, 122, 0.877);
+}
+p{
+  color: rgba(14, 14, 177, 0.877); 
+}
+
+.card {
+  padding: 1rem;
+  min-height: 100px;
+  /* border: 1px solid black; */
+  width: 200px;
+  border-radius: 8px;
+  background-color: rgba(72, 158, 216, 0.336);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.card img {
+  border-radius: 50%;
+}
+
+.card:hover{
+  
+  /* box-shadow: 2px 2px 5px rgba(10, 10, 10, 0.877), -2px -2px 5px rgba(255, 255, 255, 0.5); */
+  transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.507);
+
+}
